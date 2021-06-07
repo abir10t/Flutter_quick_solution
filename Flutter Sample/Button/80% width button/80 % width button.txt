@@ -1,0 +1,22 @@
+                          FlatButton(
+                            onPressed: () {},
+
+                            child: Container(
+                              padding: EdgeInsets.symmetric(vertical: 15),
+
+                              decoration: BoxDecoration(
+                                color: Colors.green,
+                                borderRadius: BorderRadius.circular(50),
+                              ),
+
+                              child: Center(
+                                child: Text(
+                                  'Save Address',
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.w500,
+                                      color: Colors.white70),
+                                ),
+                              ),
+                            ),
+                          ),

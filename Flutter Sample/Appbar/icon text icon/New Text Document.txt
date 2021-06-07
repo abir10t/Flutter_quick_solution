@@ -1,0 +1,20 @@
+AppBar(
+      elevation: 0,
+      leading: BackButton(
+        color: Colors.black,
+      ),
+      title: Text(
+        title,
+        style: TextStyle(
+          fontSize: 16,
+          color: headingText,
+        ),
+      ),
+      actions: [
+        IconButton(
+          icon: icon,
+          onPressed: () {},
+        )
+      ],
+      backgroundColor: primaryBackgroundv1,
+    );

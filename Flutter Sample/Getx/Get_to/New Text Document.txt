@@ -1,0 +1,9 @@
+1. Go to a page   
+
+               return GestureDetector
+               (
+                      onTap: ()
+                      {
+                        Get.to(ProductDetails());
+                      },
+               )

@@ -1,0 +1,79 @@
+class MyApp extends StatelessWidget {
+  var student = Student();
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return GetMaterialApp(
+      title: 'State Management',
+      home: Scaffold(
+          appBar: AppBar(
+            title: Text("State Management"),
+          ),
+          body: Column(children: [
+            Obx(() => Text('Name is ${student.name.value}')),
+            RaisedButton(
+              onPressed: () {
+                student.name.value = student.name.value.toUpperCase();
+              },
+            ),
+          ])),
+    );
+  }
+}
+
+
+.................student.dart.................
+
+import 'package:get/get.dart';
+
+class Student {
+  var name = "Tom".obs;
+  var age = 25.obs;
+}
+
+
+
+
+
+
+
+
+#####Full class reactive
+
+class MyApp extends StatelessWidget {
+  final student = Student(name: "tom", age: 25).obs;
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return GetMaterialApp(
+      title: 'State Management',
+      home: Scaffold(
+          appBar: AppBar(
+            title: Text("State Management"),
+          ),
+          body: Column(children: [
+            Obx(() => Text('Name is ${student.value.name}')),
+            RaisedButton(
+              onPressed: () {
+                student.update((student) {
+                  student.name = student.name.toString().toUpperCase();
+                });
+              },
+            ),
+          ])),
+    );
+  }
+}
+
+.........student.dart......
+import 'package:get/get.dart';
+
+class Student {
+  var name;
+  var age;
+  Student({this.name, this.age});
+}
+
+

@@ -1,0 +1,114 @@
+1. Image : 
+   
+           Image.asset(
+                        'assets/images/shoes.png',
+                 
+                      ),
+
+
+2.  image with full width :
+     
+                       Container(
+
+                      child: Image.asset
+                      (
+                        'assets/images/shoes.png',
+                        fit: BoxFit.cover,
+                      ),
+
+                      width: double.infinity,
+                    )
+
+
+
+3. Previous screen :
+                   
+                     onPressed:(){
+                        
+                        Navigator.pop(context);
+                         }
+
+
+
+4. Decoration :
+                              decoration: BoxDecoration(
+                              color: Colors.grey.withOpacity(0.2),
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(50)),
+                            ),
+
+
+
+
+
+5. Listview.builder :
+
+
+                    ListView.builder(
+                      itemCount: image.length,
+                      scrollDirection: Axis.horizontal,
+
+                      itemBuilder: (context, index) {
+                        return Container(
+                          padding: EdgeInsets.symmetric(horizontal: 3),
+                          child: Image.asset(image[index]),
+                        );
+                      }
+                    ),
+
+
+
+
+
+6. Media Query :
+   
+   MediaQuery.of(context).size.width * value
+
+
+
+7. Align :
+ https://www.youtube.com/watch?v=7Dljvr-Afvc
+
+
+
+
+8. BoxDecoration :
+
+
+
+                                 decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(50),
+                                  border: Border.all(color: Colors.green, width: 1),
+                                ),
+
+
+9. TextStyle :
+
+                             TextStyle(
+                                          
+                                          decoration: TextDecoration.lineThrough,
+                                        ),
+
+
+
+10. in List view and grid view always use Container and height and width.
+
+
+
+11.  shape: BoxShape.circle -> here can't use border radius. shape property make a circle.
+
+12. checkbox ->  Checkbox(
+                            value: true,
+                            onChanged: (Value) {},
+                            activeColor: iconcolorv1,
+                          ),
+
+
+
+13. maxline in a text ->  Text(
+                      deliveryway,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      
+                    ),
