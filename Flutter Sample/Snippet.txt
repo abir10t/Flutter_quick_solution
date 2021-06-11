@@ -112,3 +112,16 @@
                       overflow: TextOverflow.ellipsis,
                       
                     ),
+
+14. Dart code setup in vs code :
+
+https://stackoverflow.com/questions/52822524/create-and-run-dart-console-application-using-vscode
+
+
+15. TapBar with Getx :
+
+https://gist.github.com/eduardoflorence/4fdf7d0f38b56adb3e4929e132a98e58
+
+                  indicatorColor: Colors.green,
+                  labelColor: Colors.green,
+                  unselectedLabelColor: Colors.grey,
