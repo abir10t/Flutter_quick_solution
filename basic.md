@@ -1,3 +1,8 @@
-# BuildContext : 
+https://www.youtube.com/watch?v=eJojC3lSkwg
 
-BuildContext is somehow a tool which helps handel the location of a widget inside the widget tree
+
+
+
+### BuildContext : 
+
+- BuildContext is somehow a tool which helps handel the location of a widget inside the widget tree
