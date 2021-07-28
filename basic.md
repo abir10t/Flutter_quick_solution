@@ -23,4 +23,4 @@ https://www.youtube.com/watch?v=eJojC3lSkwg
   - if ther's no `context` instance passed to a widget, then the widget isn't build with a build context. that's wrong assumption
   - The context in which the next child will be build, won't be related to the parent context. the assumption is wrong.
 - Compile way
-  - | just in time compilers |
+  -  just in time compilers -> intermediary language that can be run by the dart virtual machine -> Ahed of time compiler compile the source code to machine code 
