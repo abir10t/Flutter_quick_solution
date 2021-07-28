@@ -1,5 +1,16 @@
 https://www.youtube.com/watch?v=eJojC3lSkwg
 
+### Dart
+- Dart is a typesafe language
+- two types of check 
+  - Static Type check -> compile time
+  - Runtime Check -> Runtime
+
+
+
+
+
+
 
 
 
