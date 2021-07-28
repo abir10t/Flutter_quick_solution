@@ -5,6 +5,7 @@ https://www.youtube.com/watch?v=eJojC3lSkwg
 - two types of check 
   - Static Type check -> compile time
   - Runtime Check -> Runtime
+- 
 
 
 
@@ -21,3 +22,5 @@ https://www.youtube.com/watch?v=eJojC3lSkwg
   - Builcontext instance `context` , we use it many place, actually the  `context`  are not same
   - if ther's no `context` instance passed to a widget, then the widget isn't build with a build context. that's wrong assumption
   - The context in which the next child will be build, won't be related to the parent context. the assumption is wrong.
+- Compile way
+  - | just in time compiler |
