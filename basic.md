@@ -14,6 +14,10 @@ https://www.youtube.com/watch?v=eJojC3lSkwg
 - on the other hand the `lib` folder is realated with libraries.
 - the analysis_options.yaml file is related to how the static dart analyzer scans the code by following a set of rules a process called linting
 - Bin folder resvered for command line apps 
+- Dart Linting -> Static analyzer show warning by lint rules
+
+
+### Running Dart Application in- Depth :
 
 
 
