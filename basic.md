@@ -8,6 +8,13 @@ https://www.youtube.com/watch?v=eJojC3lSkwg
 - Compile way
   -  just in time compilers -> intermediary language that can be run by the dart virtual machine -> Ahed of time compiler compile the source code to machine code 
 
+### Dart Project Structure 
+
+- .dart_tool, .packages, pubspace.lock, pubspace.yaml file  are associated with dart packages 
+- on the other hand the `lib` folder is realated with libraries.
+- the analysis_options.yaml file is related to how the static dart analyzer scans the code by following a set of rules a process called linting
+- Bin folder resvered for command line apps 
+
 
 
 
