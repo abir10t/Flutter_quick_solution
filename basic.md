@@ -17,7 +17,18 @@ https://www.youtube.com/watch?v=eJojC3lSkwg
 - Dart Linting -> Static analyzer show warning by lint rules
 
 ### Dart Package :
+
   ##### Dependencies :
+  
+  - IMMEDIATE DEPENDENCIES
+  - TRANSITIVE DEPENDENCIES
+  - REGULAR DEPENDENCIES
+  - DEV DEPENDENCIES
+
+  - Difference between IMEDIATE & TRANSITIVE
+  
+  
+         
    
 
 
