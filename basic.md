@@ -16,8 +16,9 @@ https://www.youtube.com/watch?v=eJojC3lSkwg
 - Bin folder resvered for command line apps 
 - Dart Linting -> Static analyzer show warning by lint rules
 
-
-### Running Dart Application in- Depth :
+### Dart Package :
+  ##### Dependencies :
+   
 
 
 
